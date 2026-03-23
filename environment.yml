@@ -1,0 +1,25 @@
+name: norgespris
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - statsmodels
+  - scikit-learn
+  - notebook
+  - ipykernel
+  - duckdb
+  - arrow
+  - pip
+  - pip:
+      - requests
+      - azure-storage-blob
+      - azure-identity
+      - python-dotenv
+      - streamlit
+      - pyspark
+      - holidays
+      - geopy
